@@ -16,7 +16,7 @@ set_test: set_test.c
 set: set.c
 	gcc $(CFLAGS) -c $< -o $@
 
-rb_tree: ../red_black_tree/rb_tree.c
+rb_tree: ./red_black_tree/rb_tree.c
 	gcc $(CFLAGS) -c $< -o $@
 
 clean:

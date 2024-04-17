@@ -2,7 +2,7 @@
 #define _CUS_SET_
 
 #include <stdbool.h>
-#include "../red_black_tree/rb_tree.h"
+#include "./red_black_tree/rb_tree.h"
 
 typedef struct Set {
     int size;
